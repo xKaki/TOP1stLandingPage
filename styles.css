@@ -11,6 +11,8 @@ div {
 
 
 
+
+
 body {
     font-family:'Roboto', sans-serif;
     min-height: 100vh;       
@@ -31,7 +33,7 @@ body {
     color: #E5E7EB;
     align-items: center;
     background-color: #1f2937;
-    padding: 0 15%;
+    padding: 0px 15% 40px;
 }
 
 .headerleft {
@@ -48,7 +50,7 @@ body {
     display: flex;
     justify-content: center;
     flex: 1;
-    padding: 80px 15%;
+    padding: 40px 15% 40px;
     background-color: #1f2937;
        
 }
@@ -57,6 +59,8 @@ body {
 .core1left,.core1right {
     flex: 1;    
     }
+
+
 
 
 
@@ -69,6 +73,14 @@ body {
 .stext {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 10px 0px;
+}
+
+.text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 800;
+
 }
 
 
@@ -77,6 +89,7 @@ button {
     background-color: #3882f6;
     border-radius: 5px;
     padding: 5px 25px;
+    border-color: #3882f6;
 }
     
  
@@ -92,9 +105,40 @@ button {
 
 .core2, .core3, .core4 {
     display: flex;
-    padding: 80px 15%;
+    padding: 40px 15% 40px;
     justify-content: center;
     align-items: center;
+}
+
+.core2 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    opacity: 0.6;
+}
+
+#cardimg {
+    height: 100px;
+    width: 100px;
+    border: #3882f6 solid 2px;
+    border-radius: 10px;    
+}
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    gap: 10px;
+}
+.cards {
+    display: flex;    
 }
 
 .core3 {
@@ -103,7 +147,28 @@ button {
 }
 
 .core4 {
+    padding: 80px;
+       
+}
 
+.core4button {
+    display: flex;   
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 35px 80px;
+    border-color: #3882f6;
+    align-items: center;      
+    
+}
+
+.core4header {
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.core4left {
+    margin-right: 80px;   
 
 }
 
@@ -115,5 +180,27 @@ button {
     display: flex;
     margin-top: auto;
     justify-content: center;
+    
+}
+
+.button2 {
+    border: solid 1px #E5E7EB
+  }
+
+.footer {
+   background-color: #1f2937;
+   color: #E5E7EB;
+   padding: 15px;
+   font-size: 14px;
+   
+
+}
+
+figcaption {
+    font-size: 16px;
+    text-align: right;
+    font-style: normal;
+    font-weight: 700;
+    
     
 }
